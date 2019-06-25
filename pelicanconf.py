@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Angel J. Ruiz Moreno'
 SITENAME = 'Cheminformatics Workflows'
-SITEURL = ''
+SITEURL = 'www.chem-workflows.com'
 
 PATH = 'content'
 
@@ -29,11 +29,13 @@ SOCIAL = (('Twitter', '@ruiz_moreno_aj'),
 	      ('Github','https://github.com/AngelRuizMoreno'),
           ('ResearchGate', 'https://www.researchgate.net/profile/Angel_Ruiz-Moreno'),)
 
+MARKUP = ('md', 'ipynb')
+
 DEFAULT_PAGINATION = False
 OUTPUT_PATH = '../output'
 THEME = 'theme'
 PLUGIN_PATHS = ['plugins/',]
-PLUGINS = ['i18n_subsites',]
+PLUGINS = ['i18n_subsites','ipynb.markup',]
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],}
 
@@ -51,5 +53,9 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_RETENTION = ['CNAME']
+IGNORE_FILES = [".ipynb_checkpoints"]  
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
