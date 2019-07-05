@@ -25,9 +25,13 @@ LINKS = (('RDKIT','https://www.rdkit.org/'),
          )
 
 # Social widget
-SOCIAL = (('Twitter', '@ruiz_moreno_aj'),
+SOCIAL = (('Twitter', 'https://twitter.com/ruiz_moreno_aj'),
 	      ('Github','https://github.com/AngelRuizMoreno'),
-          ('ResearchGate', 'https://www.researchgate.net/profile/Angel_Ruiz-Moreno'),)
+	      ('Linkedin','https://www.linkedin.com/in/angel-jonathan-ruiz-moreno-1aaa9785/'),
+          ('ResearchGate', 'https://www.researchgate.net/profile/Angel_Ruiz-Moreno'),
+          ('Google Scholar','https://scholar.google.com/citations?user=BxmoFfEAAAAJ&hl=en'),
+          ('Gmail: angel.j.ruiz.moreno@gmail.com','angel.j.ruiz.moreno@gmail.com'),
+          )
 
 MARKUP = ('md', 'ipynb')
 
@@ -39,8 +43,8 @@ PLUGINS = ['i18n_subsites','ipynb.markup',]
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],}
 
-BOOTSTRAP_THEME = 'flatly'
-PYGMENTS_STYLE = 'monokai' 
+BOOTSTRAP_THEME = 'readable'
+PYGMENTS_STYLE = 'colorful' 
 ARTICLE_PATHS = ['articles']
 STATIC_PATHS = ['img', 'pdf']
 PAGE_PATHS = ['pages']
@@ -54,8 +58,8 @@ CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
 
-DELETE_OUTPUT_DIRECTORY = True
-OUTPUT_RETENTION = ['CNAME']
+DELETE_OUTPUT_DIRECTORY = False
+OUTPUT_RETENTION = ['CNAME','.git/',]
 IGNORE_FILES = [".ipynb_checkpoints"]  
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
