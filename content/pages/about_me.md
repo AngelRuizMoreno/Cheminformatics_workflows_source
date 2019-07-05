@@ -4,12 +4,13 @@ modified: 2019-06-24
 status: published
 
 
-![image](Foto.jpg)
+![image](https://github.com/AngelRuizMoreno/chem-workflows/blob/master/img/Foto.jpg)
 
 # Education
 
 ### PhD student
-Ciencias Biomédicas (Biomedical Sciences).Universidad Nacional Autonoma de México (UNAM). México.
+Ciencias Biomédicas (Biomedical Sciences).Universidad Nacional Autónoma de México (UNAM). México.
+
 Drug Design. University of Groningen. The Netherlands.
 
 ### Master of Sciences 
@@ -18,7 +19,7 @@ Instituto Politécnico Nacional (IPN). México.
 
 ### Bachelor of Sciences
 Químico Farmaceútico Biólogo (Pharmaceutical chemist); Facultad de Química, March 2015. 
-Universidad Nacional Autonoma de México (UNAM). México.
+Universidad Nacional Autónoma de México (UNAM). México.
 
 # Research Interests
 
@@ -26,7 +27,7 @@ Design and evaluation of new treatments for novel targets using cheminformatic, 
 
 # More about Me
 
-I love science, tacos, beer, and chat. So simple, so easy.
+I love science, computers, tacos, beer, and chat. So simple, so easy.
 
 
 

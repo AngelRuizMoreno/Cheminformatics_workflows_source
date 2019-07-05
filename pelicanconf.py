@@ -22,6 +22,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('RDKIT','https://www.rdkit.org/'),
          ('OpenBabel', 'http://openbabel.org/wiki/Main_Page'),
+         ('Molcular Pharmacology,UNAM','http://farma.facmed.unam.mx/wp/?page_id=390'),
+         ('Drug Design, RUG','http://www.drugdesign.nl/'),
          )
 
 # Social widget
