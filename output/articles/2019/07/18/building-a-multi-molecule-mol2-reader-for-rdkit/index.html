@@ -9,7 +9,7 @@
 
 
 
-<link rel="canonical" href="www.chem-workflows.com/articles/2019/07/18/building-a-multi-molecule-mol2-reader-for-rdkit/">
+<link rel="canonical" href="/articles/2019/07/18/building-a-multi-molecule-mol2-reader-for-rdkit/">
 
         <meta name="author" content="Angel J. Ruiz Moreno" />
         <meta name="keywords" content="cheminformatics,tools,rdkit,molecules,reader,mol2,multi-mol2,multi-molecules,multi-model" />
@@ -17,7 +17,7 @@
         <meta property="og:site_name" content="Cheminformatics Workflows" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Building a Multi-Molecule Mol2 reader for RDKit"/>
-        <meta property="og:url" content="www.chem-workflows.com/articles/2019/07/18/building-a-multi-molecule-mol2-reader-for-rdkit/"/>
+        <meta property="og:url" content="/articles/2019/07/18/building-a-multi-molecule-mol2-reader-for-rdkit/"/>
         <meta property="og:description" content=""/>
         <meta property="article:published_time" content="2019-07-18" />
             <meta property="article:section" content="Mini-tools" />
@@ -35,14 +35,17 @@
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="www.chem-workflows.com/theme/css/bootstrap.readable.min.css" type="text/css"/>
-    <link href="www.chem-workflows.com/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/theme/css/bootstrap.readable.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="www.chem-workflows.com/theme/css/pygments/colorful.css" rel="stylesheet">
-    <link rel="stylesheet" href="www.chem-workflows.com/theme/css/style.css" type="text/css"/>
+    <link href="/theme/css/pygments/colorful.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Cheminformatics Workflows ATOM Feed"/>
 
-
+        <link href="/feeds/mini-tools.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Cheminformatics Workflows Mini-tools ATOM Feed"/>
 </head>
 <body>
 
@@ -55,22 +58,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="www.chem-workflows.com/" class="navbar-brand">
+            <a href="/" class="navbar-brand">
 Cheminformatics Workflows            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="www.chem-workflows.com/pages/about-me/">
+                         <li><a href="/pages/about-me/">
                              About Me
                           </a></li>
                         <li class="active">
-                            <a href="www.chem-workflows.com/category/mini-tools">Mini-tools</a>
+                            <a href="/category/mini-tools">Mini-tools</a>
                         </li>
                         <li >
-                            <a href="www.chem-workflows.com/category/minitools">Minitools</a>
+                            <a href="/category/minitools">Minitools</a>
                         </li>
                         <li >
-                            <a href="www.chem-workflows.com/category/workflows">Workflows</a>
+                            <a href="/category/workflows">Workflows</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -91,7 +94,7 @@ Cheminformatics Workflows            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="www.chem-workflows.com/articles/2019/07/18/building-a-multi-molecule-mol2-reader-for-rdkit/"
+                    <a href="/articles/2019/07/18/building-a-multi-molecule-mol2-reader-for-rdkit/"
                        rel="bookmark"
                        title="Permalink to Building a Multi-Molecule Mol2 reader for RDKit">
                         Building a Multi-Molecule Mol2 reader for RDKit
@@ -112,23 +115,23 @@ Cheminformatics Workflows            </a>
 
 
 <span class="label label-default">Tags</span>
-	<a href="www.chem-workflows.com/tag/cheminformatics">cheminformatics</a>
+	<a href="/tag/cheminformatics">cheminformatics</a>
         /
-	<a href="www.chem-workflows.com/tag/tools">tools</a>
+	<a href="/tag/tools">tools</a>
         /
-	<a href="www.chem-workflows.com/tag/rdkit">rdkit</a>
+	<a href="/tag/rdkit">rdkit</a>
         /
-	<a href="www.chem-workflows.com/tag/molecules">molecules</a>
+	<a href="/tag/molecules">molecules</a>
         /
-	<a href="www.chem-workflows.com/tag/reader">reader</a>
+	<a href="/tag/reader">reader</a>
         /
-	<a href="www.chem-workflows.com/tag/mol2">mol2</a>
+	<a href="/tag/mol2">mol2</a>
         /
-	<a href="www.chem-workflows.com/tag/multi-mol2">multi-mol2</a>
+	<a href="/tag/multi-mol2">multi-mol2</a>
         /
-	<a href="www.chem-workflows.com/tag/multi-molecules">multi-molecules</a>
+	<a href="/tag/multi-molecules">multi-molecules</a>
         /
-	<a href="www.chem-workflows.com/tag/multi-model">multi-model</a>
+	<a href="/tag/multi-model">multi-model</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
@@ -1829,6 +1832,35 @@ viewer_1563504314086632.render();
 
             </div>
             <!-- /.entry-content -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'chem-workflows'; // required: replace example with your forum shortname
+
+            var disqus_config = function () {
+                this.language = "en";
+
+                        this.page.identifier = '2019-07-18-building-a-multi-molecule-mol2-reader-for-rdkit';
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
         </article>
     </section>
 
@@ -1892,15 +1924,47 @@ viewer_1563504314086632.render();
       </div>
    </div>
 </footer>
-<script src="www.chem-workflows.com/theme/js/jquery.min.js"></script>
+<script src="/theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="www.chem-workflows.com/theme/js/bootstrap.min.js"></script>
+<script src="/theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="www.chem-workflows.com/theme/js/respond.min.js"></script>
+<script src="/theme/js/respond.min.js"></script>
 
 
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'chem-workflows'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-142688706-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
 
 
 </body>
