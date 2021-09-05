@@ -6,7 +6,7 @@ AUTHOR = 'Angel J. Ruiz Moreno'
 SITENAME = 'Cheminformatics Workflows'
 SITEURL = 'www.chem-workflows.com'
 
-PATH = 'content'
+PATH = './content'
 
 TIMEZONE = 'America/Mexico_City'
 
