@@ -24,3 +24,7 @@ Jupyter Dock
 
    content/MolecularDocking
    content/VirtualScreening
+
+Forum
+==============
+.. disqus::
